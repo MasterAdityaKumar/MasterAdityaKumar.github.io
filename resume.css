@@ -22,16 +22,21 @@
   --container-color: hsl(var(--second-hue), 32%, 12%);
 }
 * {
+    margin: 0; 
+    padding: 0;
     box-sizing: border-box;
     background-color: var(--body-color);
     
   }
+
   html {
     scroll-behavior: smooth;
   }
   
   body {
     margin: 2.2rem;
+    height: 100%;
+    
   }
   
   div#resume {
